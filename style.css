@@ -1,34 +1,31 @@
 /* style.css — custom styles for Peer-support page */
 
-:root {
-  --page-max-width: 900px;
-}
-
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  background: #white;
+  background: #ffffff;
   color: #0b0c0c;
 }
 
-gcds-container {
-  display: block;
-  max-width: var(--page-max-width);
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
 
-/* Small visual tweak for headings */
+
+/* Heading spacing */
 gcds-heading[tag="h1"] {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
+/* Paragraph spacing */
 gcds-text {
-  display: block;
   margin-bottom: 1rem;
 }
 
-/* Make footer stand out a little */
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Footer spacing */
 gcds-footer {
+  display: block;
   margin-top: 3rem;
 }
