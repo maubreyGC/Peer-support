@@ -1,0 +1,89 @@
+<html>
+<body>
+    <!---------- Header ---------->
+    <!-- TODO: Modify the lang-href to set the language toggle's URL. -->
+    <!-- TODO: Update the skip-to-href with the main content container's id. -->
+    <gcds-header lang-href="#" skip-to-href="#main-content">
+      <!-- The slot="search" attribute adds the search component to the header. -->
+      <gcds-search slot="search"></gcds-search>
+
+      <!-- The slot="breadcrumb" attribute adds the breadcrumbs component to the header. -->
+      <gcds-breadcrumbs slot="breadcrumb">
+        <!-- TODO: Adjust the breadcrumb links with the correct ones for your site. -->
+        <gcds-breadcrumbs-item href="#">Link</gcds-breadcrumbs-item>
+        <gcds-breadcrumbs-item href="#">Link</gcds-breadcrumbs-item>
+      </gcds-breadcrumbs>
+    </gcds-header>
+
+    <!---------- Main content ---------->
+    <!-- TODO: Confirm the id matches the "skip-to-href" id in the header. -->
+    <gcds-container
+      id="main-content"
+      layout="page"
+      tag="main"
+    >
+      <!-- TODO: Update the heading and text content. -->
+      <section>
+        <gcds-heading tag="h1">Basic page</gcds-heading>
+        <gcds-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turp is
+          egestas maecenas pharetra convallis posuere morbi leo urna.
+        </gcds-text>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">Section 1</gcds-heading>
+        <gcds-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turp is
+          egestas maecenas pharetra convallis posuere morbi leo urna.
+        </gcds-text>
+
+        <gcds-heading tag="h3">Subsection heading</gcds-heading>
+        <gcds-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turp is
+          egestas maecenas pharetra convallis posuere morbi leo urna.
+        </gcds-text>
+
+        <gcds-heading tag="h3">Subsection heading</gcds-heading>
+        <gcds-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turp is
+          egestas maecenas pharetra convallis posuere morbi leo urna.
+        </gcds-text>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">Section 2</gcds-heading>
+        <gcds-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turp is
+          egestas maecenas pharetra convallis posuere morbi leo urna.
+        </gcds-text>
+      </section>
+
+      <section>
+        <gcds-heading tag="h2">Section 3</gcds-heading>
+        <gcds-text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Turp is
+          egestas maecenas pharetra convallis posuere morbi leo urna.
+        </gcds-text>
+      </section>
+
+      <!-- TODO: Update the date to reflect the page's most recent change. -->
+      <gcds-date-modified>2024-08-22</gcds-date-modified>
+    </gcds-container>
+
+    <!---------- Footer ---------->
+    <!-- TODO: Update or remove the contextual footer heading and links as needed. -->
+    <gcds-footer
+      display="full"
+      contextual-heading="Canadian Digital Service"
+      contextual-links='{ "Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'
+    >
+    </gcds-footer>
+  </body>
+</html>
