@@ -35,8 +35,8 @@ gcds-card {
 }
 
 
-gcds-card::part(image) {
-  height: 200px;        
+card-img {
   width: 100%;
-  object-fit: cover;  
+  height: 200px;
+  object-fit: cover;
 }
