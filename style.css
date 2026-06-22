@@ -29,3 +29,14 @@ gcds-footer {
   display: block;
   margin-top: 3rem;
 }
+
+gcds-card {
+  height: 100%;
+}
+
+
+gcds-card::part(image) {
+  height: 200px;        
+  width: 100%;
+  object-fit: cover;  
+}
