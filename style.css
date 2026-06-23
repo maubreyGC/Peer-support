@@ -7,12 +7,11 @@ body {
   color: #0b0c0c;
 }
 
-/* Container width override - match old canada.ca design system */
 gcds-container[layout="page"] {
-  max-width: 940px; /* Old canada.ca design system width */
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1rem;
+  max-width: 940px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 1rem !important;
 }
 
 /* Heading spacing */
