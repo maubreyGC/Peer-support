@@ -7,7 +7,13 @@ body {
   color: #0b0c0c;
 }
 
-
+/* Container width override - match old canada.ca design system */
+gcds-container[layout="page"] {
+  max-width: 940px; /* Old canada.ca design system width */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 
 /* Heading spacing */
 gcds-heading[tag="h1"] {
@@ -41,4 +47,3 @@ gcds-card::part(img) {
   height: 200px;
   object-fit: cover;
 }
-
