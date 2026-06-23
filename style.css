@@ -7,12 +7,6 @@ body {
   color: #0b0c0c;
 }
 
-gcds-container[layout="page"] {
-  max-width: 940px !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  padding: 0 1rem !important;
-}
 
 /* Heading spacing */
 gcds-heading[tag="h1"] {
