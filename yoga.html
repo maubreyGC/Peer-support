@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Basic Peer-support page using the GC Design System" />
-  <title>Peer-support — Basic Page</title>
+  <title>Yoga page</title>
 
   <!-- GC Design System CSS Shortcuts -->
   <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.1.0/dist/gcds-css-shortcuts.min.css" />
@@ -55,8 +55,8 @@ A mental health worker will be available if you need extra support.
           <section>
       <gcds-heading tag="h2">Eligibility</gcds-heading>
       <gcds-text>
-       To participate, you must:
-        <br>
+    <p>  To participate, you must: </p>
+
 <ul style="list-style-type:disc;">
 <li>be a current or former Canadian Armed Forces (CAF) member, Veteran, Department of National Defence (DND) public service employee, Cadet, Junior Canadian Ranger, or part of the Defence Community </li>
 <li>have experienced sexual misconduct during your service or in the defence environment</li>
@@ -164,33 +164,69 @@ data='[
 ></gcds-table>
 
 
-      <gcds-heading tag="h3">Subsection heading</gcds-heading>
+      <gcds-heading tag="h3">Yoga flow for beginners</gcds-heading>
       <gcds-text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-        egestas maecenas pharetra convallis posuere morbi leo urna.
+        An easy and supportive introduction to yoga flow, practiced on a mat.
+Sessions include simple movements, steady pacing, and easy-to-follow instructions. Participants can choose movement variations that work best for their bodies.
+
+        This class is designed to support relaxation, and build body awareness and confidence with basic yoga movements.
+<ul style="list-style-type:disc;">        
+<li>Duration: 60 minutes</li>
+<li>Language: English and French</li>
+<li>Hosted by: A certified yoga instructor and a peer supporter may be present</li>
+
       </gcds-text>
+
+            <gcds-heading tag="h3">Schedule</gcds-heading>            
+            <gcds-table filter pagination pagination-size-options="[10, 15, 20, 25, 0]"
+columns='[
+{
+"field": "date",
+"header": "Date",
+"rowHeader": true
+},
+{
+"field": "time",
+"header": "Time"
+},
+{
+"field": "group",
+"header": "Group"
+},
+{
+"field": "language",
+"header": "Language"
+}
+]'
+data='[
+  {"date":"Wednesday, July 8","time":"4:00 p.m. – 5:00 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Wednesday, July 8","time":"6:15 p.m. – 7:15 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Wednesday, July 22","time":"4:00 p.m. – 5:00 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Wednesday, July 22","time":"6:15 p.m. – 7:15 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Wednesday, August 19","time":"4:00 p.m. – 5:00 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Wednesday, August 19","time":"6:15 p.m. – 7:15 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Wednesday, August 26","time":"4:00 p.m. – 5:00 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Wednesday, August 26","time":"6:15 p.m. – 7:15 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Thursday, September 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Thursday, September 10","time":"7:00 p.m. – 8:00 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Thursday, September 17","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Thursday, September 17","time":"7:00 p.m. – 8:00 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Thursday, October 1","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Thursday, October 1","time":"7:00 p.m. – 8:00 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Thursday, October 15","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Thursday, October 15","time":"7:00 p.m. – 8:00 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Thursday, November 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Thursday, November 5","time":"7:00 p.m. – 8:00 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Thursday, November 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Thursday, November 19","time":"7:00 p.m. – 8:00 p.m. EST","group":"All-Gender","language":"English"},
+  {"date":"Thursday, December 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"French"},
+  {"date":"Thursday, December 10","time":"7:00 p.m. – 8:00 p.m. EST","group":"All-Gender","language":"English"}
+]'
     </section>
 
-    <section>
-      <gcds-heading tag="h2">Section 2</gcds-heading>
-      <gcds-text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-        egestas maecenas pharetra convallis posuere morbi leo urna.
-      </gcds-text>
-    </section>
 
-    <section>
-      <gcds-heading tag="h2">Section 3</gcds-heading>
-      <gcds-text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis
-        egestas maecenas pharetra convallis posuere morbi leo urna.
-      </gcds-text>
-    </section>
 
-    <gcds-date-modified>2024-08-22</gcds-date-modified>
+    <gcds-date-modified>YY-MM-DD</gcds-date-modified>
   </gcds-container>
 
   <!-- Footer -->
