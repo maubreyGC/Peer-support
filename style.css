@@ -40,3 +40,11 @@ gcds-card::part(img) {
   height: 200px;
   object-fit: cover;
 }
+.full-bleed {
+ 
+  background-color: #E6E6FA; /* example */
+  border-top: 2px solid var(#E6E6FA);
+  border-bottom: 2px solid var(#E6E6FA);
+  padding: 1rem 0;
+  
+}
