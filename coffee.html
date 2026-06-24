@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Basic Peer-support page using the GC Design System" />
-  <title>Coffee page</title>
+  <meta name="description" content="Coffee chats — Peer-support page using the GC Design System" />
+  <title>Coffee chats — Peer-support</title>
 
   <!-- GC Design System CSS Shortcuts -->
   <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.1.0/dist/gcds-css-shortcuts.min.css" />
@@ -13,17 +13,14 @@
   <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.css" />
   <script type="module" src="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.esm.js"></script>
 
-  
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <!-- Project stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- Header -->
-  <!-- Modify lang-href and skip-to-href as needed -->
   <gcds-header lang-href="#" skip-to-href="#main-content">
     <gcds-search slot="search"></gcds-search>
 
@@ -33,209 +30,183 @@
     </gcds-breadcrumbs>
   </gcds-header>
 
+  <!-- Hero Image -->
+  <figure style="margin: 0;">
+    <img
+      src="https://booking.biblioottawalibrary.ca/sites/default/files/styles/new_image_scale_900_wide/public/chattycafe2_3.png?itok=3bChvJW9"
+      alt=""
+      style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+  </figure>
+
   <!-- Main content -->
-<div class="mwsadaptiveimage parbase section">
-
-<figure>
-    
-    
-    
-<img
-  src="https://booking.biblioottawalibrary.ca/sites/default/files/styles/new_image_scale_900_wide/public/chattycafe2_3.png?itok=3bChvJW9"
-  alt=""
-  style="display:block; margin: 0 auto; max-width:100%; height:379;"
->
-
-    
-</figure>
-</div>
   <gcds-container id="main-content" layout="page" tag="main">
     <section>
-<br>
-<br>
       <gcds-heading tag="h1">Coffee chats</gcds-heading>
       <gcds-text>
-        <p>The Coffee Chats offer people, affected by sexual misconduct, a flexible, inclusive and braver space to connect and support each other, as part of the Peer Support Program.</p> 
-        <p>These chats are casual and welcoming. They offer a chance to talk, reflect, and come together with other peers without pressure. They help participants feel seen, heard, and supported. Coffee Chats can also help people take the first step towards more support, including those who are waiting to join formal peer support group services.</p>
-<ul class="list-disc mb-300">
-  <li class="mb-75">Group duration: 60 minutes each.</li>
-<li class="mb-75">Hosted by: Mental health worker and/or a peer supporter.</li>
-<li class="mb-75">Discussion topics: Discussions are guided by participant needs.</li>
-  <li class="mb-75">Commitment: Drop-in, meaning once signed up, participation is flexible.</li>
-</ul> 
- <p>You can attend as many as you like. Sign up using <a href="url">this form</a> or email <a href="SMSRCPSP-CSRISPSP@forces.gc.ca.">SMSRCPSP-CSRISPSP@forces.gc.ca.</a></p>
-</gcds-text>
-      </section>
-          <section>
-       
-<gcds-heading tag="h2" id="join">
-  <i class="fa-solid fa-check" aria-hidden="true" style="color: rgb(163, 71, 225); margin-right:0.5rem;"></i>
-  Who can join
-</gcds-heading>
-
-
+        The Coffee Chats offer people affected by sexual misconduct a flexible, inclusive and braver space to connect and support each other, as part of the Peer Support Program.
+      </gcds-text>
       <gcds-text>
-    <p>  To participate, you must: </p>
-
-<ul class="list-disc mb-300">
-<li class="mb-75">be a current or former Canadian Armed Forces (CAF) member, Veteran, Department of National Defence (DND) public service employee, Cadet, Junior Canadian Ranger, or part of the Defence Community </li>
-<li class="mb-75">have experienced sexual misconduct during your service or in the defence environment</li>
-<li class="mb-75">have access to a computer, tablet, or smartphone with a stable internet connection</li>
-<li class="mb-75">have access to Microsoft Teams, either through the desktop/mobile app or a supported web browser (note: Safari is not supported)</li>
-<li class="mb-75">for group services, be willing to take part in a virtual discussion with a Peer Support Program staff before the first group session</li>
-</ul>
+        These chats are casual and welcoming. They offer a chance to talk, reflect, and come together with other peers without pressure. They help participants feel seen, heard, and supported.
       </gcds-text>
 
-<gcds-heading tag="h3">
-  <i class="fa-regular fa-calendar"
-   aria-hidden="true"
-   style="color: rgb(163, 71, 225); margin-right:0.5rem;">
-</i>
-  Schedule
-</gcds-heading>
-            <gcds-table filter pagination pagination-size-options="[10, 15, 20, 25, 0]"
-columns='[
-{
-"field": "date",
-"header": "Date",
-"rowHeader": true
-},
-{
-"field": "time",
-"header": "Time"
-},
-{
-"field": "group",
-"header": "Group"
-},
-{
-"field": "language",
-"header": "Language"
-}
-]'
-data='[
-{"date":"Tuesday, May 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, May 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, May 20","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, May 21","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, May 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+      <ul class="list-disc mb-300">
+        <li class="mb-75">Group duration: 60 minutes each.</li>
+        <li class="mb-75">Hosted by: Mental health worker and/or a peer supporter.</li>
+        <li class="mb-75">Discussion topics: Discussions are guided by participant needs.</li>
+        <li class="mb-75">Commitment: Drop-in, meaning once signed up, participation is flexible.</li>
+      </ul>
 
-{"date":"Tuesday, June 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, June 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, June 3","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, June 4","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, June 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, June 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, June 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, June 17","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, June 18","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, June 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, June 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, June 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+      <gcds-text>
+        You can attend as many as you like. Sign up using <a href="url">this form</a> or email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a>
+      </gcds-text>
+    </section>
 
-{"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, July 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, July 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, July 14","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, July 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, July 15","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, July 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, July 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, July 28","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, July 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, July 29","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, July 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+    <section>
+      <gcds-heading tag="h2" id="join">
+        <i class="fa-solid fa-check" aria-hidden="true" style="color: rgb(163, 71, 225); margin-right: 0.5rem;"></i>
+        Who can join
+      </gcds-heading>
 
-{"date":"Wednesday, August 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, August 11","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, August 11","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, August 12","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, August 13","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, August 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, August 25","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, August 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, August 26","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, August 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+      <gcds-text>
+        To participate, you must:
+      </gcds-text>
 
-{"date":"Wednesday, September 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, September 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, September 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, September 9","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, September 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, September 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, September 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, September 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, September 23","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, September 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+      <ul class="list-disc mb-300">
+        <li class="mb-75">be a current or former Canadian Armed Forces (CAF) member, Veteran, Department of National Defence (DND) public service employee, Cadet, Junior Canadian Ranger, or part of the Defence Community</li>
+        <li class="mb-75">have experienced sexual misconduct during your service or in the defence environment</li>
+        <li class="mb-75">have access to a computer, tablet, or smartphone with a stable internet connection</li>
+        <li class="mb-75">have access to Microsoft Teams, either through the desktop/mobile app or a supported web browser (note: Safari is not supported)</li>
+        <li class="mb-75">for group services, be willing to take part in a virtual discussion with a Peer Support Program staff before the first group session</li>
+      </ul>
 
-{"date":"Tuesday, October 6","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, October 6","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, October 7","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, October 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, October 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-{"date":"Tuesday, October 20","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, October 20","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, October 21","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, October 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, October 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+      <gcds-heading tag="h3">
+        <i class="fa-regular fa-calendar" aria-hidden="true" style="color: rgb(163, 71, 225); margin-right: 0.5rem;"></i>
+        Schedule
+      </gcds-heading>
 
-{"date":"Tuesday, November 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, November 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, November 4","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, November 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, November 17","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, November 17","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, November 18","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, November 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, November 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+      <gcds-table filter pagination pagination-size-options="[10, 15, 20, 25, 0]"
+        columns='[
+          {"field": "date", "header": "Date", "rowHeader": true},
+          {"field": "time", "header": "Time"},
+          {"field": "group", "header": "Group"},
+          {"field": "language", "header": "Language"}
+        ]'
+        data='[
+          {"date":"Tuesday, May 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, May 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, May 20","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, May 21","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, May 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, June 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, June 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, June 3","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, June 4","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, June 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, June 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, June 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, June 17","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, June 18","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, June 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, June 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, June 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, July 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, July 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, July 14","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, July 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, July 15","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, July 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, July 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, July 28","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, July 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, July 29","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, July 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, August 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, August 11","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, August 11","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, August 12","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, August 13","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, August 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, August 25","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, August 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, August 26","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, August 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, September 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, September 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, September 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, September 9","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, September 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, September 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, September 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, September 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, September 23","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, September 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, October 6","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, October 6","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, October 7","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, October 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, October 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, October 20","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, October 20","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, October 21","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, October 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, October 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, November 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, November 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, November 4","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, November 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, November 17","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, November 17","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, November 18","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, November 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, November 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, December 1","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, December 1","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, December 2","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, December 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, December 9","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"}
+        ]'>
+      </gcds-table>
 
-{"date":"Tuesday, December 1","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-{"date":"Tuesday, December 1","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-{"date":"Wednesday, December 2","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-{"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-{"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-{"date":"Thursday, December 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-{"date":"Wednesday, December 9","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"}
-]'
-></gcds-table>
-Sign up using <a href="url">this form</a> or email <a href="SMSRCPSP-CSRISPSP@forces.gc.ca.">SMSRCPSP-CSRISPSP@forces.gc.ca.</a>
-
-</section>
-
-
+      <gcds-text>
+        Sign up using <a href="url">this form</a> or email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a>
+      </gcds-text>
+    </section>
 
     <gcds-date-modified>YY-MM-DD</gcds-date-modified>
   </gcds-container>
 
   <!-- Footer -->
-  <gcds-footer display="full" contextual-heading="Canadian Digital Service" contextual-links='{ "Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'>
+  <gcds-footer display="full" contextual-heading="Canadian Digital Service" contextual-links='{"Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'>
   </gcds-footer>
 </body>
 </html>
