@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Workshops — Peer-support page using the GC Design System" />
+  <title>Workshops — Peer-support</title>
+
+  <!-- GC Design System CSS Shortcuts -->
+  <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.1.0/dist/gcds-css-shortcuts.min.css" />
+
+  <!-- GC Design System Components -->
+  <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.css" />
+  <script type="module" src="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.esm.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Project stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <gcds-header lang-href="#" skip-to-href="#main-content">
+    <gcds-search slot="search"></gcds-search>
+
+    <gcds-breadcrumbs slot="breadcrumb">
+      <gcds-breadcrumbs-item href="#">Link</gcds-breadcrumbs-item>
+      <gcds-breadcrumbs-item href="#">Link</gcds-breadcrumbs-item>
+    </gcds-breadcrumbs>
+  </gcds-header>
+
+  <!-- Hero Image -->
+  <figure style="margin: 0;">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR71y4QH4dGwZ-3qr9Z212FRK6vmjvQuC7C0qhTWLqmlH16VWsWd7CSV_E&s=10"
+      alt=""
+      style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+  </figure>
+
+  <!-- Main content -->
+  <gcds-container id="main-content" layout="page" tag="main">
+    <section>
+      <gcds-heading tag="h1">Contact us</gcds-heading>
+      <gcds-text>
+  <p> You can email  DCSRC at dcsrcpsp-csrcdpsp@forces.gc.ca.</p>
+
+ <p>You can also call the DCSRC 24/7 line at 1-844-750-1648, and a counsellor will refer you to the program.</p>
+      </gcds-text>
+
+    </section>
+
+    <section>
+
+<gcds-text>
+You can email  DCSRC at dcsrcpsp-csrcdpsp@forces.gc.ca.
+
+You can also call the DCSRC 24/7 line at 1-844-750-1648, and a counsellor will refer you to the program.
+</gcds-text>
+
+<gcds-heading tag
+
+      <gcds-heading tag="h2">
+ Feedback
+      </gcds-heading>
+
+      <gcds-text>
+Your feedback matters and helps us improve the support we offer.
+
+After participation, you may be invited to fill out a short online survey. It’s anonymous, voluntary, and helps us understand what’s working and what could be better. You might also be asked if you’d like to have a one-on-one chat with a staff member to share more about your experience.
+
+Fill out the form to provide your feedback or to file a complaint. As we collect and review feedback, our team will use your ideas to make the program even better.
+
+  <strong>Can we put a link to the feedback form here? (Especially for complaints) </strong> 
+      </gcds-text>
+    </section>
+
+    <gcds-date-modified>YY-MM-DD</gcds-date-modified>
+  </gcds-container>
+
+  <!-- Footer -->
+  <gcds-footer display="full" contextual-heading="Canadian Digital Service" contextual-links='{"Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'>
+  </gcds-footer>
+</body>
+</html>
