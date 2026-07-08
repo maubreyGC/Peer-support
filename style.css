@@ -43,3 +43,25 @@ gcds-card::part(img) {
   border-bottom: 2px solid #e6e6fa;
   padding: 1rem 0;
 }
+
+.peer-banner {
+  background-image: url("https://raw.githubusercontent.com/maubreyGC/Peer-support/refs/heads/main/images/blue_talking_blue_banner_v2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  min-height: 275px;
+
+  display: flex;
+  align-items: center;
+}
+
+.peer-banner__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
