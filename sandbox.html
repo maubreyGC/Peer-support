@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Test" />
+  <title>Peer Support Sandbox </title>
+
+  <!-- GC Design System CSS Shortcuts -->
+  <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.1.0/dist/gcds-css-shortcuts.min.css" />
+
+  <!-- GC Design System Components -->
+  <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.css" />
+  <script type="module" src="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.esm.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Project stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <gcds-header lang-href="#" skip-to-href="#main-content">
+    <gcds-search slot="search"></gcds-search>
+
+    <gcds-breadcrumbs slot="breadcrumb">
+      <gcds-breadcrumbs-item href="#">Link</gcds-breadcrumbs-item>
+      <gcds-breadcrumbs-item href="#">Link</gcds-breadcrumbs-item>
+    </gcds-breadcrumbs>
+  </gcds-header>
+
+  <!-- Hero Image -->
+    <gcds-container id="main-content" layout="page" tag="main">
+    <section>
+  <figure style="margin: 0;">
+    <img
+      src="https://raw.githubusercontent.com/maubreyGC/Peer-support/refs/heads/main/images/computer_listen_banner.png"
+      alt=""
+      style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+  </figure>
+</section>
+</gcds-container>
+<br>
+  <!-- Main content -->
+  <gcds-container id="main-content" layout="page" tag="main">
+    <section>
+      <gcds-heading tag="h1">Test</gcds-heading>
+      <gcds-text>
+       Intro
+      </gcds-text>
+
+      <gcds-heading tag="h3">
+        <i class="fa-regular fa-calendar" aria-hidden="true" style="color: rgb(163, 71, 225); margin-right: 0.5rem;"></i>
+        Schedule
+      </gcds-heading>
+
+      <gcds-table filter pagination pagination-size-options="[10, 15, 20, 25, 0]"
+        columns='[
+          {"field": "date", "header": "Date", "rowHeader": true},
+          {"field": "time", "header": "Time"},
+          {"field": "group", "header": "Group"},
+          {"field": "language", "header": "Language"}
+        ]'
+        data='[
+          {"date":"Tuesday, May 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, May 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, May 20","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, May 21","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, May 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, June 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, June 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, June 3","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, June 4","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, June 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, June 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, June 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, June 17","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, June 18","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, June 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, June 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, June 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, July 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, July 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, July 14","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, July 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, July 15","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, July 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, July 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, July 28","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, July 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, July 29","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, July 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, August 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, August 11","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, August 11","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, August 12","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, August 13","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, August 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, August 25","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, August 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, August 26","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, August 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, September 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, September 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, September 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, September 9","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, September 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, September 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, September 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, September 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, September 23","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, September 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, October 6","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, October 6","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, October 7","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, October 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, October 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, October 20","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, October 20","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, October 21","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, October 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, October 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, November 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, November 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, November 4","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, November 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, November 17","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, November 17","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, November 18","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, November 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, November 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
+          {"date":"Tuesday, December 1","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
+          {"date":"Tuesday, December 1","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
+          {"date":"Wednesday, December 2","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
+          {"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
+          {"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
+          {"date":"Thursday, December 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
+          {"date":"Wednesday, December 9","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"}
+        ]'>
+      </gcds-table>
+
+<gcds-heading tag="h4">
+  
+        
+        <i class="fa-regular fa-rectangle-list" aria-hidden="true" style="color: rgb(178, 99, 230); margin-right: 0.5rem;"></i>
+        Registration
+        
+      </gcds-heading>
+      <gcds-text>
+        <section>
+        Sign up by: 
+        <ul class="list-disc mb-300">
+        <li class="mb-75"> filling out<a href="url">this form</a></li>
+        <li class="mb-75">Email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a></li>
+        <li class="mb-75">Or calling the DCSRC 24/7 line at 1-844-750-1648 to speak to a counsellor <strong>Is this correct?</strong></li>
+      </ul>        
+    </section>
+ </gcds-text>
+
+ <gcds-heading tag="h4">Container options</gcds-heading>
+ <section style="text-align:center;">
+  <div
+    style="
+      display:inline-block;
+      background-color:#E8DBF5;
+      padding:1rem;
+      border-radius:8px;
+      
+border-width:2px;
+border-style:solid;
+
+      border-color:darkviolet;
+    ">
+    <p>
+<p>Sign up using <a href="url">this form</a> or email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a></p>
+    </p>
+  </div>
+</section>
+<br>
+<br>
+<section style="text-align:center;">
+  <div
+    style="
+      display:inline-block;
+      background-color:#E8DBF5;
+      padding:1rem;
+      border-radius:8px;
+
+      border-color:darkviolet;
+    ">
+    <p>
+<p>Sign up using <a href="url">this form</a> or email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a></p>
+    </p>
+  </div>
+</section>
+<br>
+<br>
+
+
+
+<section>
+  <div
+    style="
+      width: 100%;
+      background-color: #E8DBF5;
+      padding: 1rem;
+      border: 2px solid darkviolet;
+      border-radius: 8px;
+      text-align: center;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+    "
+  >
+    <p style="margin: 0;">
+      Sign up using <a href="url">this form</a> or email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a>
+    </p>
+  </div>
+</section>
+
+<br>
+<br>
+
+<section>
+  <div
+    style="
+      width: 100%;
+      background-color: #E8DBF5;
+      padding: 1rem;
+      border: 2px solid white;
+      border-radius: 8px;
+      text-align: center;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+    "
+  >
+    <p style="margin: 0;">
+      Sign up using <a href="url">this form</a> or email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a>
+    </p>
+  </div>
+</section>
+
+<gcds-container id="main-content" layout="page" tag="main">
+    <gcds-date-modified>YY-MM-DD</gcds-date-modified>
+</gcds-container>
+
+<!-- Footer -->
+<gcds-footer display="full" contextual-heading="Canadian Digital Service" contextual-links='{"Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'>
+</gcds-footer>
+
+</body>
+</html>
