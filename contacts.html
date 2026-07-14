@@ -21,7 +21,7 @@
 </head>
 <body>
   <!-- Header -->
-  <gcds-header lang-href="#" skip-to-href="#main-content">
+ <gcds-header lang-href="#" skip-to-href="#main-content">
     <gcds-search slot="search"></gcds-search>
 
     <gcds-breadcrumbs slot="breadcrumb">
@@ -30,14 +30,16 @@
     </gcds-breadcrumbs>
   </gcds-header>
 
- <section>
+ <gcds-container id="main-content" layout="page" tag="main">
+<section>
   <figure style="margin:0;">
     <img
       class="banner-image"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR71y4QH4dGwZ-3qr9Z212FRK6vmjvQuC7C0qhTWLqmlH16VWsWd7CSV_E&s=10"
+      src="https://raw.githubusercontent.com/maubreyGC/Peer-support/refs/heads/main/images/phone_banner.png"
       alt="">
   </figure>
-</section>
+  </section>
+</gcds-container>
 
   <!-- Main content -->
   <gcds-container id="main-content" layout="page" tag="main">
