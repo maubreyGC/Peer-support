@@ -72,7 +72,7 @@ gcds-card::part(img) {
 .banner-image {
   display: block;
   width: 100%;
-  height: 250px;   
+  height: 100px;   
   object-fit: cover;
 }
 </style>
