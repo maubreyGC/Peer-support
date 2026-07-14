@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.css" />
   <script type="module" src="https://cdn.design-system.canada.ca/@gcds-core/components@1.3.0/dist/gcds/gcds.esm.js"></script>
 
+  <!-- GCWeb (WET-BoEW) for Tables -->
+  <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdn/css/wet-boew.min.css" />
+  <script src="https://www.canada.ca/etc/designs/canada/cdn/js/wet-boew.min.js"></script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
@@ -75,7 +79,7 @@
       </gcds-text>
 
       <ul class="list-disc mb-300">
-        <li class="mb-75">be a current or former Canadian Armed Forces (CAF) member, Veteran, Department of National Defence (DND) public service employee, Cadet, Junior Canadian Ranger, or part of the Defence Community</li>
+        <li class="mb-75">be a current or former Canadian Armed Forces (CAF) member, Veteran, Department of National Defence (DND) public service employee, Cadet, Junior Canadian Ranger, or part of th[...]
         <li class="mb-75">have experienced sexual misconduct during your service or in the defence environment</li>
         <li class="mb-75">have access to a computer, tablet, or smartphone with a stable internet connection</li>
         <li class="mb-75">have access to Microsoft Teams, either through the desktop/mobile app or a supported web browser (note: Safari is not supported)</li>
@@ -87,130 +91,21 @@
         Schedule
       </gcds-heading>
 
-      
-<table
-  id="coffeeChats"
-  data-json-table="data/coffeechat.json"
-  class="provisional gc-table table wb-tables table-striped table-hover">
-  <thead></thead>
-  <tbody></tbody>
-</table>
-
-js/table-loader.js</script>
-
-
-      <gcds-table filter pagination pagination-size-options="[10, 15, 20, 25, 0]"
-        columns='[
-          {"field": "date", "header": "Date", "rowHeader": true},
-          {"field": "time", "header": "Time"},
-          {"field": "group", "header": "Group"},
-          {"field": "language", "header": "Language"}
-        ]'
-        data='[
-          {"date":"Tuesday, May 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, May 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, May 20","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, May 21","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, May 21","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, May 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, June 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, June 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, June 3","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, June 4","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, June 4","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, June 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, June 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, June 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, June 17","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, June 18","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, June 18","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, June 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, June 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, June 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, July 2","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, July 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, July 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, July 14","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, July 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, July 15","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, July 16","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, July 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, July 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, July 28","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, July 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, July 29","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, July 30","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, July 30","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, August 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, August 11","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, August 11","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, August 12","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, August 13","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, August 13","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, August 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, August 25","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, August 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, August 26","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, August 27","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, August 27","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, September 2","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, September 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, September 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, September 9","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, September 10","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, September 10","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, September 16","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, September 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, September 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, September 23","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, September 24","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, September 24","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, October 6","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, October 6","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, October 7","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, October 8","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, October 8","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, October 14","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, October 20","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, October 20","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, October 21","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, October 22","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, October 22","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, October 28","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, November 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, November 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, November 4","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, November 5","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, November 5","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, November 17","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, November 17","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, November 18","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, November 19","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, November 19","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, November 25","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"},
-          {"date":"Tuesday, December 1","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"English"},
-          {"date":"Tuesday, December 1","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"French"},
-          {"date":"Wednesday, December 2","time":"3:00 p.m. – 4:00 p.m. EST","group":"Men","language":"English"},
-          {"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Women","language":"French"},
-          {"date":"Thursday, December 3","time":"12:00 p.m. – 1:00 p.m. EST","group":"Men","language":"French"},
-          {"date":"Thursday, December 3","time":"5:30 p.m. – 6:30 p.m. EST","group":"Women","language":"English"},
-          {"date":"Wednesday, December 9","time":"5:30 p.m. – 6:30 p.m. EST","group":"All-Gender","language":"English"}
-        ]'>
-      </gcds-table>
+      <!-- GCWeb Table with WET-BoEW functionality -->
+      <table id="coffeeChats" class="table table-striped table-hover wb-tables" data-wb-tables='{"ordering": true, "paging": true, "pageLength": 10, "searching": true}'>
+        <caption>Coffee chat schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Group</th>
+            <th scope="col">Language</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Table rows populated by JavaScript -->
+        </tbody>
+      </table>
 
       <gcds-text>
         Sign up using <a href="url">this form</a> or email <a href="mailto:SMSRCPSP-CSRISPSP@forces.gc.ca">SMSRCPSP-CSRISPSP@forces.gc.ca</a>
@@ -223,5 +118,42 @@ js/table-loader.js</script>
   <!-- Footer -->
   <gcds-footer display="full" contextual-heading="Canadian Digital Service" contextual-links='{"Why GC Notify": "#","Features": "#", "Activity on GC Notify": "#"}'>
   </gcds-footer>
+
+  <!-- Script to load table data from JSON -->
+  <script>
+    async function loadTableData() {
+      try {
+        const response = await fetch('json/coffeechat.json');
+        const jsonData = await response.json();
+        const tableBody = document.getElementById('tableBody');
+
+        // Clear existing rows
+        tableBody.innerHTML = '';
+
+        // Populate table with data from JSON
+        jsonData.data.forEach(row => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${row.date}</td>
+            <td>${row.time}</td>
+            <td>${row.group}</td>
+            <td>${row.language}</td>
+          `;
+          tableBody.appendChild(tr);
+        });
+
+        // Reinitialize WET-BoEW table plugin after data is loaded
+        if (window.wb && window.wb.init) {
+          window.wb.init();
+        }
+      } catch (error) {
+        console.error('Error loading table data:', error);
+        document.getElementById('tableBody').innerHTML = '<tr><td colspan="4">Error loading schedule data</td></tr>';
+      }
+    }
+
+    // Load data when page is ready
+    document.addEventListener('DOMContentLoaded', loadTableData);
+  </script>
 </body>
 </html>
