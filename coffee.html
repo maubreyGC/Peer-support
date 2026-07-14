@@ -17,6 +17,13 @@
   <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdn/css/wet-boew.min.css" />
   <script src="https://www.canada.ca/etc/designs/canada/cdn/js/wet-boew.min.js"></script>
 
+  <!-- jQuery (required for WET-BoEW DataTables) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- DataTables (used by WET-BoEW) -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" />
+  <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
@@ -79,7 +86,7 @@
       </gcds-text>
 
       <ul class="list-disc mb-300">
-        <li class="mb-75">be a current or former Canadian Armed Forces (CAF) member, Veteran, Department of National Defence (DND) public service employee, Cadet, Junior Canadian Ranger, or part of th[...]
+        <li class="mb-75">be a current or former Canadian Armed Forces (CAF) member, Veteran, Department of National Defence (DND) public service employee, Cadet, Junior Canadian Ranger, or part o[...]
         <li class="mb-75">have experienced sexual misconduct during your service or in the defence environment</li>
         <li class="mb-75">have access to a computer, tablet, or smartphone with a stable internet connection</li>
         <li class="mb-75">have access to Microsoft Teams, either through the desktop/mobile app or a supported web browser (note: Safari is not supported)</li>
@@ -126,6 +133,7 @@
         const response = await fetch('json/coffeechat.json');
         const jsonData = await response.json();
         const tableBody = document.getElementById('tableBody');
+        const table = document.getElementById('coffeeChats');
 
         // Clear existing rows
         tableBody.innerHTML = '';
@@ -142,18 +150,39 @@
           tableBody.appendChild(tr);
         });
 
-        // Reinitialize WET-BoEW table plugin after data is loaded
-        if (window.wb && window.wb.init) {
-          window.wb.init();
+        // Destroy existing DataTable if it exists
+        if ($.fn.dataTable.isDataTable(table)) {
+          $(table).DataTable().destroy();
         }
+
+        // Reinitialize DataTable with WET-BoEW settings
+        $(table).DataTable({
+          "ordering": true,
+          "paging": true,
+          "pageLength": 10,
+          "searching": true,
+          "bAutoWidth": false,
+          "language": {
+            "emptyTable": "No schedules available"
+          }
+        });
+
       } catch (error) {
         console.error('Error loading table data:', error);
         document.getElementById('tableBody').innerHTML = '<tr><td colspan="4">Error loading schedule data</td></tr>';
       }
     }
 
-    // Load data when page is ready
-    document.addEventListener('DOMContentLoaded', loadTableData);
+    // Load data when page is ready and jQuery is available
+    document.addEventListener('DOMContentLoaded', function() {
+      // Wait for jQuery to be available
+      if (typeof jQuery !== 'undefined') {
+        loadTableData();
+      } else {
+        // Fallback: wait a bit and try again
+        setTimeout(loadTableData, 500);
+      }
+    });
   </script>
 </body>
 </html>
