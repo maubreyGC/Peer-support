@@ -1,0 +1,635 @@
+{
+  "columns": [
+    {
+      "field": "date",
+      "header": "Date",
+      "rowHeader": true
+    },
+    {
+      "field": "time",
+      "header": "Time"
+    },
+    {
+      "field": "group",
+      "header": "Group"
+    },
+    {
+      "field": "language",
+      "header": "Language"
+    }
+  ],
+  "data": [
+    {
+      "date": "Tuesday, May 19",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, May 19",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, May 20",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, May 21",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, May 21",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, May 21",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, May 27",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, June 2",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, June 2",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, June 3",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, June 4",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, June 4",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, June 4",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, June 10",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, June 16",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, June 16",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, June 17",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, June 18",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, June 18",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, June 18",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, June 24",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, June 30",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, June 30",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, July 2",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, July 2",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, July 2",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, July 8",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, July 14",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, July 14",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, July 15",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, July 16",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, July 16",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, July 16",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, July 22",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, July 28",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, July 28",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, July 29",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, July 30",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, July 30",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, July 30",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, August 5",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, August 11",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, August 11",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, August 12",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, August 13",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, August 13",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, August 13",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, August 19",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, August 25",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, August 25",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, August 26",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, August 27",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, August 27",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, August 27",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, September 2",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, September 8",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, September 8",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, September 9",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, September 10",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, September 10",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, September 10",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, September 16",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, September 22",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, September 22",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, September 23",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, September 24",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, September 24",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, September 24",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, October 6",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, October 6",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, October 7",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, October 8",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, October 8",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, October 8",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, October 14",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, October 20",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, October 20",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, October 21",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, October 22",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, October 22",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, October 22",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, October 28",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, November 3",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, November 3",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, November 4",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, November 5",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, November 5",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, November 5",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, November 17",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, November 17",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, November 18",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, November 19",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, November 19",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, November 19",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, November 25",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, December 1",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Tuesday, December 1",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Wednesday, December 2",
+      "time": "3:00 p.m. – 4:00 p.m. EST",
+      "group": "Men",
+      "language": "English"
+    },
+    {
+      "date": "Thursday, December 3",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Women",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, December 3",
+      "time": "12:00 p.m. – 1:00 p.m. EST",
+      "group": "Men",
+      "language": "French"
+    },
+    {
+      "date": "Thursday, December 3",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "Women",
+      "language": "English"
+    },
+    {
+      "date": "Wednesday, December 9",
+      "time": "5:30 p.m. – 6:30 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    }
+  ]
+}
